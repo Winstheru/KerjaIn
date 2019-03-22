@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KerjaIn</string>
+    <string name="insert_password">Kata Sandi</string>
+    <string-array name="kategori_job">
+        <item>Makanan</item>
+        <item>Industri</item>
+        <item>Hiburan</item>
+        <item>Musik</item>
+        <item>Fashion</item>
+    </string-array>
+</resources>
