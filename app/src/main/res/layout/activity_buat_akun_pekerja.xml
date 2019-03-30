@@ -20,11 +20,19 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/buatakun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:textColor="#003B60"
             android:text="Buat Akun"
             android:textSize="32sp"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:layout_below="@id/buatakun"
+            android:background="#34ABA1"/>
 
         <ImageView
             android:layout_marginTop="16dp"
@@ -284,7 +292,8 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/roundedbuttonblue"
         android:text="Submit"
-        android:textColor="#003B60" />
+        android:textColor="#003B60"
+        android:onClick="submitPekerja"/>
 
 </LinearLayout>
 </ScrollView>

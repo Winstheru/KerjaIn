@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SplashScreen"
-    android:background="#003b60">
+    >
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        app:srcCompat="@drawable/logodantulisan" />
+        app:srcCompat="@drawable/logodantulisan"
+        />
 
 
 </LinearLayout>

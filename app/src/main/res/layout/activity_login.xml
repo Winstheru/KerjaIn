@@ -47,14 +47,16 @@
         />
 
     <Button
-        android:id="@+id/masuk"
+        android:id="@+id/btn_masuk"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:text="Masuk"
         android:textColor="#FFFFFF"
         android:background="@drawable/roundedbutton"
-        android:layout_marginTop="32dp"/>
+        android:layout_marginTop="32dp"
+        android:onClick="openActivity2"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,10 +74,10 @@
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:layout_marginTop="64dp"/>
+        android:layout_marginTop="48dp" />
 
     <Button
-        android:id="@+id/daftar"
+        android:id="@+id/btn_daftar"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:text="Daftar"
@@ -83,6 +85,7 @@
         android:layout_marginTop="8dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/roundedbutton"
+        android:onClick="daftarSebagai"
         />
 
 </LinearLayout>

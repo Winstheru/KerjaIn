@@ -126,7 +126,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:ems="8"
-            android:hint="Upah Kerja"
+            android:hint="Upah Kerja (Rp)"
             android:inputType="numberSigned"
             android:singleLine="true"
             android:textSize="20sp" />
