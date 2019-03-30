@@ -1,5 +1,6 @@
 package com.example.kerjain;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputFilter;
@@ -17,6 +18,11 @@ public class BuatAkunPekerja extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buat_akun_pekerja);
 
+    }
+
+    public void submitPekerja(View view){
+        Intent pekerja = new Intent(this, BottomNavigationView.class);
+        startActivity(pekerja);
     }
 
     public void onRadioButtonClicked(View view) {
