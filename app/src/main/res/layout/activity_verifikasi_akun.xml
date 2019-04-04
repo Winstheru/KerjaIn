@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ffffff"
     tools:context=".VerifikasiAkun">
 
     <TextView
@@ -29,8 +30,8 @@
 
     <ImageView
         android:id="@+id/fotoverifikasi"
-        android:layout_width="250dp"
-        android:layout_height="120dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
         android:src="@drawable/fotoverifikasi"
         android:layout_below="@+id/tulisan2"
         android:layout_marginTop="16dp"
@@ -77,7 +78,7 @@
         android:layout_below="@id/tulisan5"
         android:layout_centerHorizontal="true"
         android:layout_gravity="bottom|center"
-        android:layout_marginTop="118dp"
+        android:layout_marginTop="58dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/roundedbuttonblue"
         android:text="UNGGAH"

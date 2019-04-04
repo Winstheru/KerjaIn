@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/gradient"
+    android:background="@drawable/bglogin"
     tools:context=".Login">
 
     <ImageView
@@ -23,27 +23,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Nomor HP"
-        android:textSize="25sp"
+        android:textSize="18sp"
+        android:textColorHint="#ffffff"
         android:layout_marginTop="48dp"
+        android:paddingBottom="24dp"
         android:layout_gravity="center_horizontal"
         android:singleLine="true"
         android:inputType="numberSigned"
-        android:ems="8"
+        android:textColor="#ffffff"
+        android:ems="11"
         android:textAlignment="center"
         />
 
     <EditText
         android:id="@+id/password"
+        android:textColorHint="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:paddingBottom="24dp"
         android:hint="@string/insert_password"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:singleLine="true"
-        android:textSize="25sp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
         android:layout_gravity="center_horizontal"
-        android:ems="8"
+        android:ems="11"
         />
 
     <Button
@@ -55,8 +61,7 @@
         android:textColor="#FFFFFF"
         android:background="@drawable/roundedbutton"
         android:layout_marginTop="32dp"
-        android:onClick="openActivity2"
-        />
+        android:onClick="openActivity2" />
 
     <TextView
         android:layout_width="wrap_content"

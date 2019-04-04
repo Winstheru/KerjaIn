@@ -38,7 +38,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
-                android:src="@drawable/companylogo"
+                android:src="@drawable/workerlogo"
                 android:layout_alignParentRight="true"/>
 
         </RelativeLayout>

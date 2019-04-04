@@ -8,4 +8,40 @@
         <item>Musik</item>
         <item>Fashion</item>
     </string-array>
+
+    <string-array name="provinsi">
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Riau</item>
+        <item>Jambi</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Utara</item>
+    </string-array>
 </resources>

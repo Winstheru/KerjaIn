@@ -18,8 +18,7 @@ public class SplashScreen extends AppCompatActivity {
                 .withFullScreen()
                 .withTargetActivity(Login.class)
                 .withSplashTimeOut(4000)
-                .withBackgroundColor(Color.parseColor("#003b60"))
-                .withLogo(R.drawable.logodantulisan);
+                .withLogo(R.drawable.splash);
 
 
         View easySplashScreen = config.create();

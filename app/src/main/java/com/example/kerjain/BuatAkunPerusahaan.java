@@ -17,4 +17,5 @@ public class BuatAkunPerusahaan extends AppCompatActivity {
         Intent perusahaan= new Intent(this, BottomNavigationView.class);
         startActivity(perusahaan);
     }
+
 }
