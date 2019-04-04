@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bglogin"
+    android:background="@drawable/gradient"
     tools:context=".Login">
 
     <ImageView
@@ -23,45 +23,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Nomor HP"
-        android:textSize="18sp"
-        android:textColorHint="#ffffff"
+        android:textSize="25sp"
         android:layout_marginTop="48dp"
-        android:paddingBottom="24dp"
         android:layout_gravity="center_horizontal"
         android:singleLine="true"
         android:inputType="numberSigned"
-        android:textColor="#ffffff"
-        android:ems="11"
+        android:ems="8"
         android:textAlignment="center"
         />
 
     <EditText
         android:id="@+id/password"
-        android:textColorHint="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:paddingBottom="24dp"
         android:hint="@string/insert_password"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:singleLine="true"
-        android:textSize="18sp"
-        android:textColor="#ffffff"
+        android:textSize="25sp"
         android:layout_gravity="center_horizontal"
-        android:ems="11"
+        android:ems="8"
         />
 
     <Button
-        android:id="@+id/btn_masuk"
+        android:id="@+id/masuk"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:text="Masuk"
         android:textColor="#FFFFFF"
         android:background="@drawable/roundedbutton"
-        android:layout_marginTop="32dp"
-        android:onClick="openActivity2" />
+        android:layout_marginTop="32dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -79,10 +72,10 @@
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="64dp"/>
 
     <Button
-        android:id="@+id/btn_daftar"
+        android:id="@+id/daftar"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:text="Daftar"
@@ -90,7 +83,6 @@
         android:layout_marginTop="8dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/roundedbutton"
-        android:onClick="daftarSebagai"
         />
 
 </LinearLayout>
