@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:textColor="#003B60"
             android:text="Buat Akun"
             android:textSize="32sp"/>
 
@@ -292,8 +291,7 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/roundedbuttonblue"
         android:text="Submit"
-        android:textColor="#003B60"
-        android:onClick="submitPekerja"/>
+        android:textColor="#003B60" />
 
 </LinearLayout>
 </ScrollView>
