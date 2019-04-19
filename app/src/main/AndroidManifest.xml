@@ -8,14 +8,32 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ProfilPerusahaan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:theme="@style/AppTheme"
+        android:screenOrientation="portrait">
+        <activity
+        android:name=".SplashScreen"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+        <activity android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".BottomNavigationView"></activity>
+        <activity android:name=".Komunitas"></activity>
+        <activity android:name=".DaftarSebagai"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".Pengaturan"></activity>
+        <activity android:name=".ProfilPekerja"></activity>
+        <activity android:name=".ProfilPerusahaan"></activity>
+        <activity android:name=".BuatAkunPekerja"></activity>
+        <activity android:name=".BuatAkunPerusahaan"></activity>
+        <activity android:name=".PostPekerjaan"></activity>
+        <activity android:name=".VerifikasiAkun"></activity>
+
     </application>
 
 </manifest>

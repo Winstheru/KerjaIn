@@ -35,7 +35,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/namapekerjaan"
+            android:id="@+id/namapekerja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -59,6 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:enabled="false"
             android:ems="8"
             android:hint=""
             android:inputType="phone"
@@ -81,6 +82,7 @@
             android:layout_marginTop="8dp"
             android:ems="8"
             android:hint=""
+            android:enabled="false"
             android:inputType="numberSigned"
             android:singleLine="true"
             android:maxLength="3"
@@ -101,6 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:ems="8"
+            android:enabled="false"
             android:hint=""
             android:inputType="text"
             android:singleLine="true"
@@ -123,6 +126,7 @@
             android:layout_marginTop="8dp"
             android:ems="8"
             android:hint=""
+            android:enabled="false"
             android:inputType="textPostalAddress"
             android:singleLine="true"
             android:text="Jl Kejaksaan No.31, Medan"
@@ -186,6 +190,7 @@
             android:ems="8"
             android:hint=""
             android:inputType="textLongMessage"
+            android:enabled="false"
             android:text="Pernah Bekerja di Pabrik Sentosa 3 tahun"
             android:textSize="14sp" />
 
