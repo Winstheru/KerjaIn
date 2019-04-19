@@ -312,6 +312,5 @@
             android:text="Submit"
             android:textColor="#003B60"
             />
-
     </LinearLayout>
 </ScrollView>
