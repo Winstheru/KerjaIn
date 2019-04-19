@@ -257,29 +257,7 @@
         android:layout_marginTop="24dp"
         android:ems="8"
         android:hint="Alamat Lengkap"
-        android:inputType="text|textPostalAddress"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/katasandi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:ems="8"
-        android:hint="Kata Sandi"
-        android:inputType="textPassword"
-        android:singleLine="true"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/ulangkatasandi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:ems="8"
-        android:hint="Ulangi Kata Sandi"
-        android:inputType="textPassword"
-        android:singleLine="true"
+        android:inputType="textMultiLine|textPostalAddress"
         android:textSize="20sp" />
 
     <Button
