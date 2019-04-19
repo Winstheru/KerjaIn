@@ -35,11 +35,12 @@
                 android:background="#34ABA1"/>
 
             <ImageView
-                android:layout_marginTop="16dp"
                 android:layout_width="60dp"
                 android:layout_height="50dp"
-                android:src="@drawable/companylogo"
-                android:layout_alignParentRight="true"/>
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/companylogo" />
 
         </RelativeLayout>
 
@@ -310,7 +311,7 @@
             android:background="@drawable/roundedbuttonblue"
             android:text="Submit"
             android:textColor="#003B60"
-            android:onClick="submitPerusahaan"/>
+            />
 
     </LinearLayout>
 </ScrollView>
