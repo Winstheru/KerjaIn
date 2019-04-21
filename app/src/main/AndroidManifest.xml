@@ -9,56 +9,55 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity-->
-            <!--android:name=".SplashScreen"-->
-            <!--android:label="@string/app_name"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
-        <!--<activity android:name=".Login"
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".BottomNavigationView"></activity>
-        <activity android:name=".Komunitas"></activity>
-        <activity android:name=".DaftarSebagai"></activity>
-        <activity android:name=".Pengaturan"></activity>
-        <activity android:name=".ProfilPekerja"></activity>
-        <activity android:name=".ProfilPerusahaan"></activity>
-        <activity android:name=".BuatAkunPekerja"></activity>
-        <activity android:name=".BuatAkunPerusahaan"></activity>
-        <activity android:name=".PostPekerjaan"></activity>
-        <activity android:name=".VerifikasiAkun"></activity> -->
-
         <activity
-            android:name=".DaftarSebagai"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:name=".SplashScreen"
+            android:label="KerjaIn"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
 
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".Komunitas"></activity>
-        <activity android:name=".BottomNavigationView"></activity>
-        <activity android:name=".Pengaturan"></activity>
-        <activity android:name=".ProfilPekerja"></activity>
-        <activity android:name=".ProfilPerusahaan"></activity>
-        <activity android:name=".BuatAkunPekerja"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".BuatAkunPerusahaan"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".PostPekerjaan"></activity>
-        <activity android:name=".VerifikasiAkun"></activity>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BottomNavigationView"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Komunitas"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DaftarSebagai"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Pengaturan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProfilPekerja"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ProfilPerusahaan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BuatAkunPekerja"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BuatAkunPerusahaan"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PostPekerjaan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".VerifikasiAkun"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KodeOtentikasi"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".CommunityActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
