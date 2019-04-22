@@ -68,6 +68,68 @@
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/alamatlengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="8"
+            android:hint="Alamat Lengkap"
+            android:inputType="textMultiLine|textPostalAddress"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nomornpwp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="8"
+            android:hint="No. NPWP*"
+            android:inputType="numberSigned"
+            android:singleLine="true"
+            android:maxLength="16"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nomorsiup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="8"
+            android:hint="No. SIUP"
+            android:inputType="numberSigned"
+            android:singleLine="true"
+            android:maxLength="16"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Lampirkan Foto Gedung Perusahaan"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="63dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/roundedborder" />
+
+            <ImageView
+                android:id="@+id/lampiranfotogedungperusahaan"
+                android:layout_width="54dp"
+                android:layout_height="52dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/insertimage" />
+        </RelativeLayout>
+
+        <EditText
             android:id="@+id/namapenanggungjawab"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -153,67 +215,7 @@
 
         </RelativeLayout>
 
-        <EditText
-            android:id="@+id/alamatlengkap"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:ems="8"
-            android:hint="Alamat Lengkap"
-            android:inputType="textMultiLine|textPostalAddress"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/nomornpwp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:ems="8"
-            android:hint="No. NPWP*"
-            android:inputType="numberSigned"
-            android:singleLine="true"
-            android:maxLength="16"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/nomorsiup"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:ems="8"
-            android:hint="No. SIUP"
-            android:inputType="numberSigned"
-            android:singleLine="true"
-            android:maxLength="16"
-            android:textSize="20sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Lampirkan Foto Gedung Perusahaan"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="66dp"
-                android:layout_height="63dp"
-                android:layout_marginTop="8dp"
-                android:background="@drawable/roundedborder" />
-
-            <ImageView
-                android:id="@+id/lampiranfotogedungperusahaan"
-                android:layout_width="54dp"
-                android:layout_height="52dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="10dp"
-                android:src="@drawable/insertimage" />
-        </RelativeLayout>
+        
 
 
         <Button
