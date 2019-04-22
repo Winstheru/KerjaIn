@@ -13,12 +13,11 @@ import android.widget.Spinner;
 
 
 public class BuatAkunPekerja extends AppCompatActivity {
-    private EditText namaPekerja, emailPekerja, noKtp, nomorTelepon, alamatLengkap;
+    private EditText namaPekerja, emailPekerja, nomorTelepon, alamatLengkap;
     private RadioButton radioPria, radioWanita;
     private RadioGroup rgGender;
-    private Spinner provinsi, kotaKabupaten, kecamatan;
     private Button register;
-    private String gender, mobile, name, ktp, email, alamat, provinsi1, kotaKabupaten1, kecamatan1, func;
+    private String gender, mobile, name, ktp, email, alamat, func;
 
     @Override
 
@@ -27,7 +26,6 @@ public class BuatAkunPekerja extends AppCompatActivity {
         setContentView(R.layout.activity_buat_akun_pekerja);
 
         namaPekerja = findViewById(R.id.namapekerja);
-        noKtp = findViewById(R.id.nomorktp);
         emailPekerja = findViewById(R.id.emailpekerja);
         nomorTelepon = findViewById(R.id.nomortelpon);
         alamatLengkap = findViewById(R.id.alamatlengkap);
@@ -65,22 +63,14 @@ public class BuatAkunPekerja extends AppCompatActivity {
     public void inputData(){
         mobile = nomorTelepon.getText().toString().trim();
         name = namaPekerja.getText().toString().trim();
-        ktp = noKtp.getText().toString().trim();
         email = emailPekerja.getText().toString().trim();
         alamat = alamatLengkap.getText().toString().trim();
-        provinsi1 = provinsi.getSelectedItem().toString().trim();
-        kotaKabupaten1 = kotaKabupaten.getSelectedItem().toString().trim();
-        kecamatan1 = kecamatan.getSelectedItem().toString().trim();
     }
     public void submitData(){
         Intent intent = new Intent(BuatAkunPekerja.this, KodeOtentikasi.class);
         intent.putExtra("mobile", mobile);
         intent.putExtra("name",name);
         intent.putExtra("alamat", alamat);
-        intent.putExtra("provinsi", provinsi1);
-        intent.putExtra("kotakabupaten", kotaKabupaten1);
-        intent.putExtra("kecamatan", kecamatan1);
-        intent.putExtra("ktp", ktp);
         intent.putExtra("email", email);
         intent.putExtra("func", "registerPk");
         startActivity(intent);
