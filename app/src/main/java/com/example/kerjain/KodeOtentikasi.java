@@ -1,5 +1,6 @@
 package com.example.kerjain;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,8 @@ import java.util.Locale;
 
 public class KodeOtentikasi extends AppCompatActivity {
 
+    private Button tombolSkip;
+
     //private static final long START_TIME = 200000;
     private static final long START_TIME = 5000;
     private TextView mTextViewCountDown;
@@ -20,13 +23,24 @@ public class KodeOtentikasi extends AppCompatActivity {
     private boolean mTimerRunning; //utk cek apakah timer sedang berjalan
     private long mTimeLeft = START_TIME;
 
+    private TextView reset;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kode_otentikasi);
 
+        tombolSkip = findViewById(R.id.skip);
+        tombolSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                skipMasuk();
+            }
+        });
+
         mTextViewCountDown = findViewById(R.id.timer);
         mButtonStart = findViewById(R.id.submit);
+
+        reset = findViewById(R.id.reset);
 
         //to define what button will do when we click them
         mButtonStart.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +66,8 @@ public class KodeOtentikasi extends AppCompatActivity {
             public void onFinish() {
                 //this code will run when time is up
                 mTimerRunning = false;
-                waktuHabis();
+                reset.setVisibility(View.VISIBLE);
+//                waktuHabis();
             }
         }.start();
 
@@ -70,6 +85,11 @@ public class KodeOtentikasi extends AppCompatActivity {
 
     public void waktuHabis(){
         Intent intent = new Intent(this, DaftarSebagai.class);
+        startActivity(intent);
+    }
+
+    public void skipMasuk(){
+        Intent intent = new Intent(this, BottomNavigationView.class);
         startActivity(intent);
     }
 }
