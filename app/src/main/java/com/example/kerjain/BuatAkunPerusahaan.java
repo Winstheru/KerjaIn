@@ -25,7 +25,6 @@ public class BuatAkunPerusahaan extends AppCompatActivity {
         namaPerusahaan = findViewById(R.id.namaperusahaan);
         emailPerusahaan = findViewById(R.id.emailperusahaan);
         namaPenanggungjawab = findViewById(R.id.namapenanggungjawab);
-        nomorKtp = findViewById(R.id.nomorktp);
         nomorTelepon = findViewById(R.id.nomortelpon);
         nomorNpwp = findViewById(R.id.nomornpwp);
         nomorSiup = findViewById(R.id.nomorsiup);
@@ -46,7 +45,6 @@ public class BuatAkunPerusahaan extends AppCompatActivity {
         mobile = nomorTelepon.getText().toString().trim();
         namaPer = namaPerusahaan.getText().toString().trim();
         namaPen = namaPenanggungjawab.getText().toString().trim();
-        ktp = nomorKtp.getText().toString().trim();
         npwp = nomorNpwp.getText().toString().trim();
         siup = nomorSiup.getText().toString().trim();
         alamat = alamatLengkap.getText().toString().trim();
@@ -59,7 +57,6 @@ public class BuatAkunPerusahaan extends AppCompatActivity {
         intent.putExtra("namaPen",namaPen);
         intent.putExtra("emailPer",emailPer);
         intent.putExtra("alamat", alamat);
-        intent.putExtra("ktp", ktp);
         intent.putExtra("npwp", npwp);
         intent.putExtra("siup", siup);
         //intent.putExtra("email", email);
